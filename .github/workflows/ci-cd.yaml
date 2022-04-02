@@ -41,7 +41,6 @@ jobs:
         HEROKU_APP_NAME: ${{ secrets.HEROKU_APP_NAME }}
       if: github.ref == 'refs/heads/main' && job.status == 'success'
       run: |
-        echo '-----------HEROKU_API_TOKEN------------'
         echo $HEROKU_API_TOKEN
         echo '-----------HEROKU_APP_NAME------------'
         echo $HEROKU_APP_NAME
