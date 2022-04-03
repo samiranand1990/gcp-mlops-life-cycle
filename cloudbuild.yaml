@@ -9,7 +9,7 @@ steps:
   args:
   - "-c"
   - |
-    echo "Docker Container Built"
+    echo "Docker Container Built -"
     ls -la
     ls -al models/
 - name: "gcr.io/cloud-builders/gke-deploy"
