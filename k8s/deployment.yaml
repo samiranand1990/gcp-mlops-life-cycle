@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: wineq
-        image: gcr.io/hft-demo-v1/wineq:v1
+        image: gcr.io/mlops/wineq:v1
         ports:
         - containerPort: 5001
