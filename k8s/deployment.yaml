@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mlopsdemowineq
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: wineq
+  template:
+    metadata:
+      labels:
+        app: wineq
+    spec:
+      containers:
+      - name: wineq-container
+        image: gcr.io/srivatsan-project/imgwebapp:v1
+        ports:
+        - containerPort: 5001
