@@ -71,5 +71,6 @@ Project Organization
 `4. Authorize it`</br>
 `5. Open gcp console `</br>
 `6. search for cloud build >> trigger`</br>
-```7. gcloud projects add-iam-policy-binding hft-demo-v1 --member=serviceAccount:1009805620509@cloudbuild.gserviceaccount.com --role=roles/container.developer```
-`8. k8s  e deploy`
+```7. gcloud projects add-iam-policy-binding hft-demo-v1 --member=serviceAccount:1009805620509@cloudbuild.gserviceaccount.com --role=roles/container.developer```</br>
+`8. k8s  deploy`</br>
+`9. k8s failing due to permission issue and time out`</br>
