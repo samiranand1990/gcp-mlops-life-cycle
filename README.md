@@ -1,8 +1,15 @@
 Model Development and Productionization 
 =======================================
-    |-- DVC integration
-    |-- CI+CD - github
-
+    |-- Project Organization
+    |  |               <- Cookiecutter `https://cookiecutter.readthedocs.io/en/stable/`
+    |-- Data Version Control
+    |  |               <- DVC `https://dvc.org/`
+    |-- CI+CD - Github
+    |-- Model Productionization/Deployment
+    |  |-- UI                                             <- Flask
+    |  |-- Scalability and high availability              <- k8
+    |-- FeedBack and Retrain 
+    
 
 
 
