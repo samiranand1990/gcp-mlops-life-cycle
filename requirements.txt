@@ -11,3 +11,12 @@ tox
 flake8
 flask
 gunicorn
+mlflow
+flask_sqlalchemy
+click
+Sphinx
+coverage
+awscli
+hyperopt
+python-dotenv>=0.5.1
+jsonschema~=3.0

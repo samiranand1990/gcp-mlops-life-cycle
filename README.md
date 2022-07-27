@@ -74,3 +74,9 @@ Project Organization
 ```7. gcloud projects add-iam-policy-binding hft-demo-v1 --member=serviceAccount:1009805620509@cloudbuild.gserviceaccount.com --role=roles/container.developer```</br>
 `8. k8s  deploy`</br>
 `9. k8s failing due to permission issue and time out`</br>
+`10. Configure terraform for k8s creation: https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs/guides/getting-started`
+
+
+`Ml flow execute--`
+
+`mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifact --host 0.0.0.0 -p 123`
