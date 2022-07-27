@@ -1,7 +1,10 @@
-mlops_demo
-==============================
+Model Development and Productionization 
+=======================================
+    |-- DVC integration
+    |-- CI+CD - github
 
-Mlops demo 
+
+
 
 Project Organization
 ------------
